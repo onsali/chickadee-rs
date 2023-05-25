@@ -26,10 +26,11 @@ More APIs to come in the future.
 * One IP: `chickadee --ips 1.1.1.1`
 * Select a few columns: `chickadee --ips 1.1.1.1 --columns query,city,country`
 * Multiple IPs: `chickadee --ips "1.1.1.1,2.2.2.2 3.3.3.3    4.4.4.4"`
-  * Note: as long as they are delimited, they are likely to be detected and resolved.
+* Note: as long as they are delimited, they are likely to be detected and resolved.
 * A plain text file containing IPs: `chickadee --ips firewall.log`
 * A gzip file containing IPs: `chickadee --ips cloudtrail.log.gz`
-
+* You need to define what resolver you want to use `chickadee --ips 1.1.1.1 ipapi/virustotal`
+* 
 ## Development
 
 After checking out this repository, run the following commands from the root:
