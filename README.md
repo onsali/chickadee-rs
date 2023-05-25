@@ -30,7 +30,7 @@ More APIs to come in the future.
 * A plain text file containing IPs: `chickadee --ips firewall.log`
 * A gzip file containing IPs: `chickadee --ips cloudtrail.log.gz`
 * You need to define what resolver you want to use `chickadee --ips 1.1.1.1 ipapi/virustotal`
-* 
+
 ## Development
 
 After checking out this repository, run the following commands from the root:
